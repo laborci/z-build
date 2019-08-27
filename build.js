@@ -5,7 +5,7 @@ let fs = require("fs");
 class BuildConfigReader{
 
 	static load(path){
-		let config = JSON.parse(fs.readFileSync(path, {encoding: 'UTF-8'}))["zengular-build"];
+		let config = JSON.parse(fs.readFileSync(path, {encoding: 'UTF-8'}));
 		return new BuildConfigReader(config);
 	}
 
