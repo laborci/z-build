@@ -1,9 +1,9 @@
 {
-  "name": "z-build",
+  "name": "zengular-build",
   "main": "build.js",
-  "author": {
-    "name": "Gergely Laborci"
-  },
+  "author": "Gergely Laborci",
+  "version": "2.0.0",
+  "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
